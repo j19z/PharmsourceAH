@@ -14,8 +14,11 @@ interface HeroSlideProps {
 
 export default function HeroSlide({ data }: HeroSlideProps) {
     return (
-        <SlideSection className="bg-gradient-to-br from-primary to-blue-900 text-white relative overflow-hidden">
-            {/* Background Image */}
+        <section
+            id="hero"
+            className="bg-gradient-to-br from-primary to-blue-900 text-white relative overflow-hidden min-h-screen w-full flex flex-col justify-center items-center snap-start snap-always"
+        >
+            {/* Background Image - Outside the motion.div to prevent containing block resizing bug */}
             {data.backgroundImage ? (
                 <div className="absolute inset-0 z-0 opacity-40 mix-blend-overlay">
                     <Image
@@ -29,13 +32,21 @@ export default function HeroSlide({ data }: HeroSlideProps) {
             ) : (
                 <div className="absolute inset-0 z-0 opacity-20 bg-[url('/grid-pattern.svg')]"></div>
             )}
+
             {/* Dark overlay for text readability */}
             <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/80 to-blue-900/90 mix-blend-multiply"></div>
-            <div className="relative z-10 text-center flex flex-col items-center">
+
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                viewport={{ once: true, amount: 0.3 }}
+                className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 py-12 md:py-24 text-center flex flex-col items-center"
+            >
                 {/* Logo */}
                 <motion.div
-                    initial={{ scale: 0.8, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 0.2 }}
                     className="mb-8"
                 >
@@ -68,17 +79,18 @@ export default function HeroSlide({ data }: HeroSlideProps) {
                     {data.subtitle}
                 </motion.p>
 
+                {/* Scroll Indicator */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.5, duration: 1, repeat: Infinity, repeatType: "reverse" }}
-                    className="absolute bottom-12 left-1/2 -translate-x-1/2"
+                    className="absolute -bottom-16 md:-bottom-24 left-1/2 -translate-x-1/2"
                 >
                     <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center p-1">
                         <div className="w-1 h-3 bg-white rounded-full animate-bounce"></div>
                     </div>
                 </motion.div>
-            </div>
-        </SlideSection>
+            </motion.div>
+        </section>
     );
 }
