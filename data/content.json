@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Pharmsource Animal Health",
-    "description": "Value, Experience, Integrity.",
+    "title": "Pharmsource Animal Health | Built for the Future of Veterinary Distribution",
+    "description": "The national veterinary distributor built for a consolidating market. 9,000+ customers, 78% YoY growth in corporate hospitals, and a team that knows animal health from the inside out.",
     "primaryColor": "#174EA2",
     "secondaryColor": "#58585A"
   },
@@ -10,16 +10,16 @@
       "id": "hero",
       "type": "hero",
       "title": "Pharmsource Animal Health",
-      "subtitle": "Value, Experience, Integrity.",
+      "subtitle": "The Distributor Built for Veterinary's Next Chapter.",
       "backgroundImage": "/images/hero-bg.png"
     },
     {
       "id": "about",
       "type": "content",
-      "title": "Pharmsource Animal Health",
+      "title": "A Distributor Built Different",
       "content": [
-        "Pharmsource Animal Health is a national veterinary pharmaceutical distributor built to support the evolving needs of a rapidly consolidating animal health market.",
-        "As a division of Pharmsource, LLC, an independent pharmaceutical wholesaler founded in 2014, the company combines nationwide reach, operational scale, and industry-experienced teams to serve both independent veterinary practices and large corporate hospital networks."
+        "Pharmsource Animal Health isn't a general wholesaler that happens to stock veterinary products. We are a dedicated national veterinary pharmaceutical distributor, built from the ground up to serve the demands of animal health.",
+        "As a division of Pharmsource, LLC, an independent pharmaceutical company founded in 2014, we combine the scale of a national operation with the responsiveness of a team that genuinely understands veterinary care. From independent practices to multi-location corporate hospital networks, we show up where others can't."
       ],
       "stats": [
         {
@@ -40,38 +40,38 @@
     {
       "id": "market",
       "type": "content",
-      "title": "Positioned for a Consolidating Veterinary Market",
+      "title": "The Market Is Consolidating. We're Already There.",
       "content": [
-        "The U.S. veterinary industry is undergoing rapid consolidation, with more than 60 major corporate practice groups actively acquiring independent clinics.",
-        "Corporate entities are estimated to control 25–50% of all veterinary practices and as much as 75% of specialty and emergency hospitals, significantly increasing the demand for distributors capable of supporting complex, multi-location organizations."
+        "The U.S. veterinary industry is in the middle of a historic transformation. More than 60 major corporate practice groups are actively acquiring independent clinics, reshaping who buys, how they buy, and who they trust.",
+        "Corporate entities now control an estimated 25 to 50% of all veterinary practices and up to 75% of specialty and emergency hospitals. The demand for distributors who can serve complex, multi-location organizations at scale has never been higher. Most distributors aren't ready for it."
       ],
-      "highlight": "Pharmsource Animal Health is currently contracted with 32 corporate groups, supporting over 4,130 hospitals and billing corporate entities directly.",
-      "growthStat": "78% YoY Growth in Corporate Hospitals",
+      "highlight": "We are. Pharmsource Animal Health is contracted with 32 corporate groups, actively serving over 4,130 hospitals and billing corporate entities directly.",
+      "growthStat": "78% YoY Growth in Corporate Hospital Partnerships",
       "image": "/images/market-bg.png"
     },
     {
       "id": "partners",
       "type": "logos",
-      "title": "Trusted by Industry Leaders",
-      "description": "Current corporate relationships include many of the most recognized veterinary networks in the country:",
+      "title": "The Names That Trust Us",
+      "description": "When the largest veterinary networks in the country need a distribution partner, they choose Pharmsource Animal Health:",
       "logos": [
-        "MedVet",
-        "National Veterinary Associates (NVA)",
-        "Ethos Veterinary Health",
-        "Veterinary Emergency Group (VEG)",
-        "Southern Veterinary Partners",
-        "Thrive Pet Healthcare",
-        "VetCor",
-        "Pathway Vet Alliance"
+        { "name": "Corporate 1", "logo": "/images/logos/ethos.png" },
+        { "name": "Corporate 2", "logo": "/images/logos/medvet.png" },
+        { "name": "Corporate 3", "logo": "/images/logos/mission.webp" },
+        { "name": "Corporate 4", "logo": "/images/logos/nva.png" },
+        { "name": "Corporate 5", "logo": "/images/logos/pvcc.png" },
+        { "name": "Corporate 6", "logo": "/images/logos/vca.png" },
+        { "name": "Corporate 7", "logo": "/images/logos/veg.jpg" },
+        { "name": "Corporate 8", "logo": "/images/logos/vetcor.png" }
       ]
     },
     {
       "id": "infrastructure",
       "type": "stats_grid",
-      "title": "Scale, Financial Strength, and Infrastructure",
+      "title": "The Scale to Back It Up",
       "content": [
-        "Pharmsource Animal Health generates approximately $15.5M in annual revenue, including $5.5M from corporate hospital partnerships.",
-        "The broader Pharmsource organization delivers more than $130M in annual revenue through its Human Health division."
+        "Pharmsource Animal Health generates approximately $15.5M in annual revenue, including $5.5M driven directly by corporate hospital partnerships, our fastest-growing segment.",
+        "Behind us stands the full financial strength of the Pharmsource organization: over $130M in annual revenue across our Human Health division. That gives us the infrastructure, supplier relationships, and capital to deliver consistently at any scale."
       ],
       "locations": [
         {
@@ -80,50 +80,50 @@
         },
         {
           "city": "Brunswick, GA",
-          "role": "Primary Warehouse"
+          "role": "Primary Distribution Warehouse"
         },
         {
           "city": "Detroit, MI",
-          "role": "Future Office (2026)"
+          "role": "Expansion Office (2026)"
         }
       ]
     },
     {
       "id": "teams",
       "type": "content",
-      "title": "Industry-Experienced Teams",
+      "title": "Reps Who Actually Know Animal Health",
       "content": [
-        "Pharmsource Animal Health’s commercial model is intentionally relationship-driven. The sales organization consists of 12 representatives, most of whom come from hands-on animal health backgrounds, including veterinary technicians, professional dog handlers, groomers, and trainers.",
-        "Sales representatives are structured to maintain 50+ customer touchpoints per day, with relationship building as the primary objective."
+        "Our sales team isn't hired from a generic pharma background and handed a catalog. Our 12 representatives come from inside the industry: veterinary technicians, professional dog handlers, groomers, and trainers. They don't just sell to this world. They've lived in it.",
+        "That credibility opens doors a traditional distributor rep never could. Each rep maintains 50+ meaningful customer touchpoints per day, because in veterinary, relationships aren't a soft skill. They're the business."
       ],
       "image": "/images/team-bg.png"
     },
     {
       "id": "compliance",
       "type": "list",
-      "title": "Compliance & Technology",
+      "title": "The Infrastructure to Move Fast and Stay Compliant",
       "items": [
-        "Supports overnight delivery & CSOS program",
-        "Rapid Schedule II (C-II) fulfillment",
-        "Integrated with Vetcove & Coupa",
-        "Investment in AI-driven tools & new eCommerce portal"
+        "Overnight delivery and full CSOS program compliance",
+        "Rapid Schedule II (C-II) controlled substance fulfillment",
+        "Seamlessly integrated with Vetcove and Coupa purchasing platforms",
+        "Active investment in AI-driven tools and a next-generation eCommerce portal"
       ],
       "image": "/images/compliance-bg.png"
     },
     {
       "id": "community",
       "type": "content",
-      "title": "Education & Engagement",
+      "title": "We Don't Just Serve the Industry. We're Part of It.",
       "content": [
-        "Pharmsource Animal Health maintains an active presence across the veterinary industry through education and engagement.",
-        "The company distributes a monthly newsletter to approximately 40,000 subscribers and consistently attends leading industry conferences like VMX and WVC."
+        "Pharmsource Animal Health doesn't wait for customers to come to us. We show up in inboxes, at trade floors, and in the conversations that shape veterinary practice.",
+        "Our monthly newsletter reaches approximately 40,000 subscribers across the veterinary community. Our team maintains a consistent presence at the industry's most influential conferences, including VMX and WVC. That's not marketing. That's how you stay relevant in this industry."
       ],
       "image": "/images/community-bg.png"
     },
     {
       "id": "footer",
       "type": "footer",
-      "text": "A Distributor That Understands Veterinary Care. Value, Experience, Integrity."
+      "text": "Pharmsource Animal Health. The Distributor Veterinary Trusts to Deliver. Value, Experience, Integrity."
     }
   ]
 }
