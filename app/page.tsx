@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import HeroSlide from '@/components/HeroSlide';
 import ContentSlide from '@/components/ContentSlide';
+import WhoWeAreSlide from '@/components/WhoWeAreSlide';
 import LogoGridSlide from '@/components/LogoGridSlide';
 import StatsSlide from '@/components/StatsSlide';
 import FooterSlide from '@/components/FooterSlide';
@@ -24,6 +25,9 @@ export default async function Home() {
                 switch (slide.type) {
                     case 'hero':
                         return <HeroSlide key={slide.id} data={slide} />;
+
+                    case 'who_we_are':
+                        return <WhoWeAreSlide key={slide.id} data={slide} />;
 
                     case 'content':
                         // Alternate layout direction for visual interest

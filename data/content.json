@@ -9,9 +9,43 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Pharmsource Animal Health",
-      "subtitle": "The Distributor Built for Veterinary's Next Chapter.",
+      "title": "Partnership You Can Count On",
+      "subtitle": "Value, Experience, Integrity.",
       "backgroundImage": "/images/hero-bg.png"
+    },
+    {
+      "id": "whoweare",
+      "type": "who_we_are",
+      "title": "Who We Are",
+      "infoBoxes": {
+        "founded": "Founded 2014",
+        "headquarters": "Headquarters",
+        "hqCity": "Brunswick, GA",
+        "type": "Independent Wholesaler"
+      },
+      "dualMarket": {
+        "title": "Dual Market Focus",
+        "markets": [
+          {
+            "title": "Pharmsource Animal Health",
+            "desc": "Veterinary pharmaceutical distribution"
+          },
+          {
+            "title": "Pharmsource Wholesale",
+            "desc": "Human health pharmaceutical distribution"
+          }
+        ]
+      },
+      "distribution": {
+        "title": "Nationwide Distribution Network",
+        "desc": "Branded and generic pharmaceuticals across all 50 states",
+        "badge": "50 STATES"
+      },
+      "valueProp": {
+        "label": "OUR VALUE PROPOSITION",
+        "headline": "Helping manufacturers expand market reach while maintaining supply chain integrity",
+        "description": "We distribute <strong>branded and generic pharmaceuticals nationwide</strong>—providing the reach manufacturers need with the reliability and compliance they demand."
+      }
     },
     {
       "id": "about",
@@ -42,10 +76,10 @@
       "type": "content",
       "title": "The Market Is Consolidating. We're Already There.",
       "content": [
-        "The U.S. veterinary industry is in the middle of a historic transformation. More than 60 major corporate practice groups are actively acquiring independent clinics, reshaping who buys, how they buy, and who they trust.",
-        "Corporate entities now control an estimated 25 to 50% of all veterinary practices and up to 75% of specialty and emergency hospitals. The demand for distributors who can serve complex, multi-location organizations at scale has never been higher. Most distributors aren't ready for it."
+        "The U.S. veterinary industry is rapidly consolidating. Over 60 corporate groups are acquiring independent clinics, reshaping the market.",
+        "With corporations now controlling up to 75% of specialty hospitals, the demand for scalable distribution partners has never been higher."
       ],
-      "highlight": "We are. Pharmsource Animal Health is contracted with 32 corporate groups, actively serving over 4,130 hospitals and billing corporate entities directly.",
+      "highlight": "We're ready. Pharmsource is contracted with 32 corporate groups, actively serving 4,130+ hospitals with direct corporate billing.",
       "growthStat": "78% YoY Growth in Corporate Hospital Partnerships",
       "image": "/images/market-bg.png"
     },
@@ -55,14 +89,38 @@
       "title": "The Names That Trust Us",
       "description": "When the largest veterinary networks in the country need a distribution partner, they choose Pharmsource Animal Health:",
       "logos": [
-        { "name": "Corporate 1", "logo": "/images/logos/ethos.png" },
-        { "name": "Corporate 2", "logo": "/images/logos/medvet.png" },
-        { "name": "Corporate 3", "logo": "/images/logos/mission.webp" },
-        { "name": "Corporate 4", "logo": "/images/logos/nva.png" },
-        { "name": "Corporate 5", "logo": "/images/logos/pvcc.png" },
-        { "name": "Corporate 6", "logo": "/images/logos/vca.png" },
-        { "name": "Corporate 7", "logo": "/images/logos/veg.jpg" },
-        { "name": "Corporate 8", "logo": "/images/logos/vetcor.png" }
+        {
+          "name": "Corporate 1",
+          "logo": "/images/logos/ethos.png"
+        },
+        {
+          "name": "Corporate 2",
+          "logo": "/images/logos/medvet.png"
+        },
+        {
+          "name": "Corporate 3",
+          "logo": "/images/logos/mission.webp"
+        },
+        {
+          "name": "Corporate 4",
+          "logo": "/images/logos/nva.png"
+        },
+        {
+          "name": "Corporate 5",
+          "logo": "/images/logos/pvcc.png"
+        },
+        {
+          "name": "Corporate 6",
+          "logo": "/images/logos/vca.png"
+        },
+        {
+          "name": "Corporate 7",
+          "logo": "/images/logos/veg.jpg"
+        },
+        {
+          "name": "Corporate 8",
+          "logo": "/images/logos/vetcor.png"
+        }
       ]
     },
     {

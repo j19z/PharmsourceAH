@@ -13,7 +13,7 @@ interface StatsSlideProps {
 
 export default function StatsSlide({ data }: StatsSlideProps) {
     return (
-        <SlideSection className="bg-primary text-white">
+        <SlideSection className="bg-primary text-white" showLogo="white">
             <div className="flex flex-col md:flex-row gap-12 items-center">
 
                 <div className="flex-1 space-y-8">

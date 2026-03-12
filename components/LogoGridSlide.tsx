@@ -50,7 +50,7 @@ function LogoCard({ logo, idx }: { logo: string | LogoItem; idx: number }) {
 
 export default function LogoGridSlide({ data }: LogoGridSlideProps) {
     return (
-        <SlideSection className="bg-gray-50">
+        <SlideSection className="bg-gray-50" showLogo="blue">
             <div className="text-center max-w-4xl mx-auto mb-16">
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}

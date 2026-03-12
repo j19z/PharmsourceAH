@@ -18,7 +18,7 @@ interface ContentSlideProps {
 
 export default function ContentSlide({ data, isReversed = false }: ContentSlideProps) {
     return (
-        <SlideSection className="bg-white text-secondary">
+        <SlideSection className="bg-white text-secondary" showLogo="blue">
             <div className={`flex flex-col md:flex-row gap-12 items-center ${isReversed ? 'md:flex-row-reverse' : ''}`}>
 
                 {/* Text Side */}
